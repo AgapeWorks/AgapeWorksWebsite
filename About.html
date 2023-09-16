@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Bootstrap JavaScript Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"
+    integrity="sha512-b6lGn9+1aD2DgwZXuSY4BhhdrDURVzu7f/PASu4H1i5+CRpEalOOz/HNhgmxZTK9lObM1Q7ZG9jONPYz8klIMg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Custom CSS -->
+
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Agape works- About</title>
+</head>
+
+<body>
+  <!-- ============---Header start----=================== -->
+  <header class="mainheader">
+    <!-- =================---Desktop----====================== -->
+    <nav class="navbar py-0 navbar-expand-lg bg-light d-none d-lg-block">
+      <div class="container">
+        <a class="navbar-brand my-2" href="#"><img class="desktopViewimg" src="img/Agapelogo.png"
+            alt="agapeworks Technology" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="navbar" class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="Index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="About.html">ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a id="navServices" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                SERVICES
+              </a>
+              <ul class="Servicesdropdown dropdown-menu">
+                <li><a class="dropdown-item" href="SoftwareDevelopment.html">Software Development</a></li>
+                <li><a class="dropdown-item" href="AI.html">Artificial Intelligence and Analytics</a></li>
+                <li><a class="dropdown-item" href="WorkForce.html">Workforce</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ourClient.html">OUR CLIENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="CaseStudies.html">CASE STUDIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contactus.html">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- =================----Mobile, tab----====================== -->
+    <nav class="navbar navbar-dark  d-block d-lg-none">
+      <div class="container-fluid">
+        <a class="mobile navbar-brand" href="#"> <img class="mobileViewimg" src="img/Agapelogo.png"
+            alt="agapeworks Technology" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar">
+          <span class="fas fa-bar navbar-toggler-icon"><i class="fa-solid fa-bars text-dark"></i></span>
+        </button>
+        <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                class="fa-solid fa-xmark"></i></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="Index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="Index.html" href="About.html">ABOUT US</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  SERVICES
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="SoftwareDevelopment.html">Software Development</a></li>
+                  <li><a class="dropdown-item" href="AI.html">Artificial Intelligence and Analytics</a></li>
+                  <li><a class="dropdown-item" href="WorkForce.html">Workforce</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ourClient.html">OUR CLIENTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="CaseStudies.html">CASE STUDIES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contactus.html">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <!-- ============---Header end----=================== -->
+
+
+    <div class="aboutBody background">
+      <div class="content">
+        <p class="mb-0">KBS is a leading IT solutions provider and offshore development center that offers world-class
+          services that
+          are responsive and customer focused. With years of experience under our belt, we are a complete IT Solution
+          and Service Provider offering full-featured web services that also include e-commerce solutions for B2B and
+          B2C businesses. Our experts work closely with our clients to come up with genuine and proven solutions that
+          help them reach their goals.</p>
+      </div>
+      <div class="main px-3 px-md-5">
+        <div class="chartLine"><i class="fa-solid fa-chart-line my-4"></i></div>
+        <div class="firstchild">
+          <h5 class="text-center">Dedicated Development Center</h5>
+          <p>Our Dedicated Development Center makes it easier for our experts to collaborate with our clients to provide
+            unmatched IT management services that trigger change and improves efficiencies, while reducing the amount of
+            risk thatâ€™s involved when integrating different technologies to traditional office settings. In other
+            words, our experts offer the competitive edge that businesses need nowadays in order to succeed in a growing
+            and competitive world of business.</p>
+        </div>
+        <div class="row mb-2">
+          <div class="col-12 col-md-6 mb-1 imgleft"><img src="Aboutimg/Teammeet-1.jfif" alt="teammeet" class="img-fluid"></div>
+          <div class="col-12 col-md-6">
+            <h5>Our Offshore Development Center Philosophy and Mission!</h5>
+            <p>The sole purpose of our company is to offer our clients with an unmatched and accurate representation of
+              their business or cause, and to continually dedicate ourselves to the adoption, design, and implementation
+              of new technologies. We value each and every client as an individual and we make sure that their
+              individual needs and requirements are met in the timeliest and professional manner possible.</p>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-12 col-md-6 mb-1 pe-md-3 imgleft"><img src="Aboutimg/Teammeet-2.webp" alt="teammeet" class="img-fluid"></div>
+          <div class="col-12 col-md-6">
+            <h5>Our Offshore Development Center Philosophy and Mission!</h5>
+            <p>The sole purpose of our company is to offer our clients with an unmatched and accurate representation of
+              their business or cause, and to continually dedicate ourselves to the adoption, design, and implementation
+              of new technologies. We value each and every client as an individual and we make sure that their
+              individual needs and requirements are met in the timeliest and professional manner possible.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- ======footer===== -->
+  <footer>
+    <div class="container pt-2 pb-2">
+      <div class="footerContent py-4 text-center"> © Copyright 2022 KBS Solutions LLC. All Rights Reserved. </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

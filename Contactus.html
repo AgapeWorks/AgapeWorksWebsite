@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Bootstrap JavaScript Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"
+    integrity="sha512-b6lGn9+1aD2DgwZXuSY4BhhdrDURVzu7f/PASu4H1i5+CRpEalOOz/HNhgmxZTK9lObM1Q7ZG9jONPYz8klIMg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Agape works-Contact Us</title>
+</head>
+
+<body>
+  <!-- ============---Header start----=================== -->
+  <header class="mainheader">
+    <!-- =================---Desktop----====================== -->
+    <nav class="navbar py-0 navbar-expand-lg bg-light d-none d-lg-block">
+      <div class="container">
+        <a class="navbar-brand my-2" href="#"><img class="desktopViewimg" src="img/Agapelogo.png"
+            alt="agapeworks Technology" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="navbar" class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a id="navServices" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                SERVICES
+              </a>
+              <ul class="Servicesdropdown dropdown-menu">
+                <li><a class="dropdown-item" href="SoftwareDevelopment.html">Software Development</a></li>
+                <li><a class="dropdown-item" href="AI.html">Artificial Intelligence and Analytics</a></li>
+                <li><a class="dropdown-item" href="WorkForce.html">Workforce</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ourClient.html">OUR CLIENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="CaseStudies.html">CASE STUDIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contactus.html">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- =================----Mobile, tab----====================== -->
+    <nav class="navbar navbar-dark  d-block d-lg-none">
+      <div class="container-fluid">
+        <a class="mobile navbar-brand" href="#"> <img class="mobileViewimg" src="img/Agapelogo.png"
+            alt="agapeworks Technology" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar">
+          <span class="fas fa-bar navbar-toggler-icon"><i class="fa-solid fa-bars text-dark"></i></span>
+        </button>
+        <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                class="fa-solid fa-xmark"></i></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="Index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">ABOUT US</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  SERVICES
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="SoftwareDevelopment.html">Software Development</a></li>
+                  <li><a class="dropdown-item" href="AI.html">Artificial Intelligence and Analytics</a></li>
+                  <li><a class="dropdown-item" href="WorkForce.html">Workforce</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ourClient.html">OUR CLIENTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="CaseStudies.html">CASE STUDIES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contactus.html">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <!-- ============---Header end----=================== -->
+  <div class="contactUs background pb-5">
+    <div>
+      <h1 class="heading">Contact Us</h1>
+    </div>
+
+    <div class="content">
+      <p class="mb-0">Connect with us for all your IT Solutions.</p>
+    </div>
+
+
+
+    <div class="main">
+      <div class="map">
+        <!-- <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31594.491417887!2d77.39443270336845!3d8.171347059130554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04f0dfc0ddc7b7%3A0x809a9e32a95d3ed1!2sNagercoil%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1693497917297!5m2!1sen!2sin"
+           allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+      </div>
+          <!-- ====Address==== -->
+    <div class="container-fluid p-5">
+      <!-- <div class="last-heading">
+          <h4 class="text-center"><b>Does your Business need Technology Transformation?</b></h4>
+      </div>
+      <p class="text-center last-heading-p">To find out more about what we can do for your business, contact us today
+          at
+          +1-972-521-6571.</p> -->
+      <div class="row">
+          <div class="col-12 col-lg-5 ps-0 address">
+              <div class="detials textleft">
+                  <h3 class="my-3">UNITED STATES</h3>
+                  <p><strong>DALLAS</strong></p>
+                  <address>5605 N. MacArthur Blvd. 10th Floor,<br />
+                      Suit# 1019, Irving, TX, 75038</address>
+              </div>
+              <div class="detials">
+                  <h3 class="my-3 textleft">INDIA</h3>
+                  <h5 class="textleft">CHENNAI</strong></h5>
+                  <address class="textleft">61, 1st Floor, Kurinji Street,<br />
+                      Fathima Nagar<br />
+                      Valasaravakkam,<br />
+                      Chennai-600087</address>
+
+                  <h5 class="textleft">TRIVANDRUM</strong></h5>
+                  <address class="textleft">Technopark, Module 7, Phase I,<br />
+                      Park Centre, Basement Building,<br />
+                      Trivandrum-695581</address>
+
+                  <h5 class="textleft">BANGALORE</strong></h5>
+                  <address class="textleft">Novel Tech Park, #46/4, GarveBhavi Palya,<br />
+                      Near Kudlu Gate, Hosur Main Road,<br />
+                      Bangalore – 560 068</address>
+
+                  <h4 class="my-3 textleft">NOIDA</h4>
+                  <address class="textleft">KBS Technologies Pvt. Ltd.<br />
+                      Block A 94/9, 2nd Floor Skymark Building,<br />
+                      Sector – 58 Noida – 201301</address>
+              </div>
+              <div class="icon-No mb-4 textleft"><i class="fa-solid fa-phone me-3"></i><span>+1-972-819-3709</span></div>
+              <div class="icon-No mb-4 textleft"><i class="fa-solid fa-phone me-3"></i><span>+1-972-900-4004</span></div>
+              <div class="icon-No mb-4 textleft"><i class="fa-solid fa-phone me-3"></i><span>+1-972-900-4004</span></div>
+              <div class="icon-No mb-4 textleft"><i class="fa-solid fa-envelope me-3"></i><span>contact@kolorblue.com</span>
+              </div>
+          </div>
+              <!-- ====form==== -->
+          <div class="col-12 col-lg-7  form-detials">
+              <form class="row cardanim">
+                  <div class="col-12 col-lg-6">
+                      <label for="exampleFormControlInput1" class="form-label">Company Name*</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1">
+                  </div>
+                  <div class=" col-12 col-lg-6">
+                      <label for="exampleFormControlInput1" class="form-label">Address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1">
+                  </div>
+                  <div class="col-12 col-lg-6">
+                      <label for="exampleFormControlInput1" class="form-label">Title*</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1">
+                  </div>
+                  <div class="col-12 col-lg-6">
+                      <label for="exampleFormControlInput1" class="form-label">Full Name*</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1">
+                  </div>
+                  <div class=" col-12 col-lg-6 ">
+                      <label for="exampleFormControlInput1" class="form-label">Telephone*</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1">
+                  </div>
+                  <div class=" col-12 col-lg-6 ">
+                      <label for="exampleFormControlInput1" class="form-label">Mobile</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1">
+                  </div>
+                  <div class=" col-12 col-lg-6 ">
+                      <label for="exampleFormControlInput1" class="form-label">Fax</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1">
+                  </div>
+                  <div class=" col-12 col-lg-6 ">
+                      <label for="exampleFormControlInput1" class="form-label">Email*</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1">
+                  </div>
+                  <div class="  col-12 col-lg-6 ">
+                      <label for="exampleFormControlInput1" class="form-label">Country</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1">
+                  </div>
+                  <div class=" col-12 col-lg-6 ">
+                      <label for="exampleFormControlInput1" class="form-label">Request Type</label>
+                      <select class="form-select" id="exampleFormControlInput1" aria-label="Default select example">
+                          <option selected>Select Request</option>
+                          <option value="Request">Request</option>
+                          <option value="Question">Question</option>
+                          <option value="Opinion">Opinion</option>
+                          <option value="Complaint">Complaint</option>
+                          <option value="Other">Other</option>
+                      </select>
+                  </div>
+                  <div class="col-12">
+                      <label for="floatingTextarea2">Details *</label>
+                      <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+
+                  </div>
+                  <button class="submitButton mx-auto py-2 py-sm-4">submit</button>
+                  <div class="response-output"></div>
+              </form>
+
+          </div>
+      </div>
+  </div>
+    </div>
+
+
+
+    <div class="connectus py-2 py-md-3 ">
+      <h2 class="text-center text-light px-2">
+        Thank you for visiting us! We look forward to work with you soon.</h2>
+    </div>
+  </div>
+  <!-- ======footer===== -->
+  <footer>
+    <div class="container pt-2 pb-2">
+      <div class="footerContent py-4 text-center"> © Copyright 2022 KBS Solutions LLC. All Rights Reserved. </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
