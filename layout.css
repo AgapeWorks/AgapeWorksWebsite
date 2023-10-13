@@ -2,6 +2,7 @@
     font-family: "Roboto";
 }
 body{
+
     overflow-x:hidden;
 }
 header{
@@ -14,13 +15,17 @@ color:#0088cc;
 padding-top:62px;
 padding-bottom: 16px;
 font-weight: 600;
+border:0.5px solid #ff0000;
     }
     #navbar .nav-item:hover .nav-link{
         color:#fff;
     }
-    #navbar  .nav-item:hover{
-        background-color: #0088cc;
-    }
+#navbar .nav-item:hover {
+    border-bottom: 2px solid #0088cc;
+    color: #0088cc;
+    /*    background-color: #0088cc;
+*/
+}
 
 .dropdown-item:active,
 .dropdown-item.active{
