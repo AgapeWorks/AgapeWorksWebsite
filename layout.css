@@ -1,6 +1,6 @@
-*{
-    font-family: "Roboto";
-}
+/** {
+    font-family:"";
+}*/
 body{
 
     overflow-x:hidden;
@@ -9,22 +9,21 @@ header{
     z-index: 20;
 }
 
-    #navbar  .nav-item .nav-link{
-        font-size: 80%;
-color:#0088cc;
-padding-top:62px;
-padding-bottom: 16px;
-font-weight: 600;
-border:0.5px solid #ff0000;
-    }
+
+#navbar .nav-item .nav-link {
+    font-size: 80%;
+    color: #0088cc;
+    padding-top: 62px;
+    padding-bottom: 16px;
+    font-weight: 600;
+}
     #navbar .nav-item:hover .nav-link{
-        color:#fff;
+        color:#162371;
+        
     }
 #navbar .nav-item:hover {
-    border-bottom: 2px solid #0088cc;
+    border-bottom: 1px solid #0088cc;
     color: #0088cc;
-    /*    background-color: #0088cc;
-*/
 }
 
 .dropdown-item:active,
@@ -36,7 +35,7 @@ border:0.5px solid #ff0000;
         background-image:none ;
     }
     .Servicesdropdown{
-        border-top:4px solid #0088cc;
+        border-top:1px solid #0088cc;
         border-radius:0px;
     }
    .desktopViewimg{
