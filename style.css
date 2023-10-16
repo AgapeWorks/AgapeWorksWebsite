@@ -704,7 +704,7 @@ address {
 }
 /* ================================== */
 .background{
-    background:rgba(0, 0, 0, 0.12) url('Aboutimg/background4.jfif') center no-repeat;
+    background:rgba(0, 0, 0, 0.12) url('Aboutimg/case-study-bg.jpg') center no-repeat;
     background-size: cover;
     min-height:80vh;
     width:100vw;
@@ -846,10 +846,10 @@ font-size:22px;
 .consultingservicebody .main .second .card-title a:hover {
     color:#21479b ;  
 }
- .connectus{ 
-    background: #46bde2 ;
+.connectus {
+    background: #40afd1;
     border-top: 12px solid #40afd1;
-    padding-top:30px;
+    padding-top: 30px;
 }
 .contactUs .connectus h2{
     font-weight: 700;
@@ -1068,3 +1068,6 @@ padding: 20px;
     opacity:1;
     animation:bottomcard .5s linear;
  }
+
+
+
