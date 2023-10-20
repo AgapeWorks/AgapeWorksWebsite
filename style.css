@@ -14,11 +14,11 @@
     margin-bottom: 0px;
 }
 
-.carousel-indicators [data-bs-target] {
-    width: 0.8vw;
-    height: 0.8vw;
-    border-radius: 50%;
-}
+    .carousel-indicators [data-bs-target] {
+        width: 0.8vw;
+        height: 0.8vw;
+        border-radius: 50%;
+    }
 
 .carousel-dark .carousel-indicators [data-bs-target] {
     background-color: #0d6efd;
@@ -53,7 +53,6 @@
     0% {
         margin-left: 15%;
         opacity: 0;
-
     }
 
     100% {
@@ -73,7 +72,6 @@
 @keyframes captionText2 {
     0% {
         opacity: 0;
-
     }
 
     70% {
@@ -140,7 +138,7 @@
     }
 }
 
-.captions :nth-child(4)>div {
+.captions :nth-child(4) > div {
     font-size: 1.5vw;
     color: #fff;
     position: absolute;
@@ -185,15 +183,18 @@
 .captions2 img {
     width: 5vw;
 }
+
 @keyframes caption2Text1 {
     0% {
         opacity: 0;
         margin-left: 25%;
     }
-50%{
-    opacity: 0;
-    margin-left: 25%;
-}
+
+    50% {
+        opacity: 0;
+        margin-left: 25%;
+    }
+
     100% {
         margin-left: 0%;
         opacity: 1;
@@ -204,11 +205,13 @@
     color: #fff;
     font-size: 4vw;
     margin-left: 0%;
-    font-weight:bold;
+    font-weight: bold;
 }
-.text-1{
+
+.text-1 {
     animation: caption2Text1 .8s linear;
 }
+
 @keyframes caption2Text2 {
     0% {
         opacity: 0;
@@ -233,9 +236,11 @@
     margin-left: 0%;
     white-space: nowrap;
 }
+
 .text-2 {
     animation: caption2Text2 1.2s linear;
 }
+
 @keyframes caption2line {
     0% {
         opacity: 0;
@@ -259,10 +264,11 @@
     animation: caption2line 2.3s linear;
 }
 
-.captions2 :nth-child(3)>div:not(:nth-child(1)) img {
+.captions2 :nth-child(3) > div:not(:nth-child(1)) img {
     width: 50;
 }
-.caption2-logo img{
+
+.caption2-logo img {
     opacity: 1;
 }
 
@@ -330,11 +336,12 @@
     opacity: 1;
     animation: caption2second 4s linear;
 }
+
 .carousel-caption .captions3 :nth-child(1),
 .carousel-caption .captions4 :nth-child(1),
 .carousel-caption .captions5 :nth-child(1) {
     font-size: 3.5vw;
-    font-weight:bold;
+    font-weight: bold;
     color: #48dff5;
 }
 
@@ -342,9 +349,10 @@
 .carousel-caption .captions4 :nth-child(2),
 .carousel-caption .captions5 :nth-child(2) {
     font-size: 3.5vw;
-    font-weight:400;
+    font-weight: 400;
     color: #fff;
 }
+
 @keyframes lineImg {
     0% {
         opacity: 0;
@@ -361,69 +369,78 @@
         width: 40vw;
     }
 }
+
 .lineimg {
     width: 40vw;
-    animation:lineImg 2.3s linear ;
+    animation: lineImg 2.3s linear;
 }
 
 
 @keyframes adImg {
     0% {
-        opacity:0;
+        opacity: 0;
     }
 
     70% {
-        opacity:0;
+        opacity: 0;
     }
 
     100% {
-        opacity:1;
+        opacity: 1;
     }
 }
-.image-1 > img{
-    animation:adImg 2.3s linear 
+
+.image-1 > img {
+    animation: adImg 2.3s linear
 }
-.image-2 > img{
-    animation:adImg 2.6s linear 
+
+.image-2 > img {
+    animation: adImg 2.6s linear
 }
-.image-3 > img{
-    animation:adImg 2.9s linear 
+
+.image-3 > img {
+    animation: adImg 2.9s linear
 }
-.image-4 > img{
-    animation:adImg 3.2s linear 
+
+.image-4 > img {
+    animation: adImg 3.2s linear
 }
-.image-5 > img{
-    animation:adImg 3.5s linear 
+
+.image-5 > img {
+    animation: adImg 3.5s linear
 }
-.image-6 > img{
-    animation:adImg 3.8s linear 
+
+.image-6 > img {
+    animation: adImg 3.8s linear
 }
-.image-7 > img{
-    animation:adImg 4.1s linear 
+
+.image-7 > img {
+    animation: adImg 4.1s linear
 }
-.image-8 > img{
-    animation:adImg 4.4s linear 
+
+.image-8 > img {
+    animation: adImg 4.4s linear
 }
 
 .carousel-caption .captions3 .img,
 .carousel-caption .captions4 .img,
-.carousel-caption .captions5 .img{
+.carousel-caption .captions5 .img {
     width: 40vw;
 }
 
-.carousel-caption .captions3 .img div,
-.carousel-caption .captions4 .img div,
-.carousel-caption .captions5 .img div {
-    margin-top: auto;
-    margin-bottom: auto;
-}
+    .carousel-caption .captions3 .img div,
+    .carousel-caption .captions4 .img div,
+    .carousel-caption .captions5 .img div {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
 
-.carousel-caption .captions3 .img div img,
-.carousel-caption .captions4 .img div img,
-.carousel-caption .captions5 .img div img {
-    width: 4vw;
-   opacity:1;
-}
+        .carousel-caption .captions3 .img div img,
+        .carousel-caption .captions4 .img div img,
+        .carousel-caption .captions5 .img div img {
+            width: 4vw;
+            opacity: 1;
+        }
 
 /* ========services========= */
 
@@ -455,9 +472,10 @@
         z-index: -1;
     }
 
-.banner-text{
-    background-color:#38acec;
+.banner-text {
+    background-color: #38acec;
 }
+
 .banner .team {
     border-bottom: 1px solid rgba(196, 219, 244, 0.5);
     padding-bottom: 20px;
@@ -527,30 +545,29 @@ h2 {
     margin: 0 8.33333333%;
 }
 
-.brands .our-brand h2 {
-    color: #21479b;
-    padding-bottom: 20px;
-    margin-bottom: 15px;
-    border-bottom: 1px solid rgba(196, 219, 244, 0.5);
-}
+    .brands .our-brand h2 {
+        color: #21479b;
+        padding-bottom: 20px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid rgba(196, 219, 244, 0.5);
+    }
 
 .brand-img div div {
     width: 33%;
     text-align: center;
     margin-bottom: 50px;
 }
-.brand-img div div img{
-    min-width:80px;
-    width:15vw;
-}
-.brand-img div .digitalWeb img{
-    min-width:50px;
-    width:8vw;
+
+    .brand-img div div img {
+        min-width: 80px;
+        width: 15vw;
+    }
+
+.brand-img div .digitalWeb img {
+    min-width: 50px;
+    width: 8vw;
 }
 /* =========Form=========== */
-.form-detials {
-    padding: 30px;
-}
 
 .last-heading h4 {
     font-size: clamp(22px, 2vw, 30px);
@@ -591,16 +608,19 @@ address {
 
 .form-detials .form-control {
     border-radius: 0px;
-    background: #d9e8ed;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid #adafb1;
 }
 
 .form-detials form {
     padding: 0px 10%;
 }
 
-.form-detials form div {
-    padding: 4px 4%;
-}
+    .form-detials form div {
+        padding: 4px 4%;
+    }
 
 .form-detials form {
     color: #7c7c7c;
@@ -610,11 +630,10 @@ address {
     padding: 2px 4px;
 }
 
-.form-detials .form-control:focus,
-.form-detials .form-select {
-    box-shadow: none;
-
-}
+    .form-detials .form-control:focus,
+    .form-detials .form-select {
+        box-shadow: none;
+    }
 
 .submitButton {
     border: 1px solid #0077b3;
@@ -631,9 +650,9 @@ address {
     width: auto;
 }
 
-.submitButton:hover {
-    background: #0077b3;
-}
+    .submitButton:hover {
+        background: #0077b3;
+    }
 
 .form-detials form .response-output {
     padding: 15px;
@@ -654,25 +673,26 @@ address {
     }
 }
 /* ================================== */
-.background{
-    background:rgba(0, 0, 0, 0.12) url('Aboutimg/case-study-bg.jpg') center no-repeat;
+.background {
+    background: rgba(0, 0, 0, 0.12) url('Aboutimg/case-study-bg.jpg') center no-repeat;
     background-size: cover;
-    min-height:80vh;
-    width:100vw;
-    padding:2vw 10vw 0px 10vw;
+    min-height: 80vh;
+    width: 100vw;
+    padding: 2vw 10vw 0px 10vw;
 }
 
-h5{
+h5 {
     font-weight: 600;
-    font-size:24px;
-    color:#21479b;
+    font-size: 24px;
+    color: #21479b;
 }
-h1{
-    
-    margin-bottom:20px;
+
+h1 {
+    margin-bottom: 20px;
 }
-.content{
-    background-color:#4b6498;
+
+.content {
+    background-color: #4b6498;
     color: #fff;
     font-size: clamp(14px, 0.9vw, 1vw);
     font-weight: 200;
@@ -683,188 +703,226 @@ h1{
 /* ====================-----------About----------==================== */
 /* ================================================================== */
 
-.aboutBody  .main{
+.aboutBody .main {
     background: #fff;
 }
-.aboutBody .chartLine{
-display:flex;
-align-items: center;
-justify-content: center;
-padding:10px;
+
+.aboutBody .chartLine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
-@keyframes chartLine{
-0%{
-    transform: scale(1);
-}60%{
-    transform: scale(1.3);
-}100%{
-    transform: scale(1);
+
+@keyframes chartLine {
+    0% {
+        transform: scale(1);
+    }
+
+    60% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
-}
-.aboutBody .chartLine i{
+
+.aboutBody .chartLine i {
     font-size: 50px;
     border-radius: 50%;
-    color:#5AA1E3;
-     background: #ebebeb;
-     padding:30px;
-     transform: scale(1);
-     animation: chartLine .6s ease-in-out;
-
+    color: #5AA1E3;
+    background: #ebebeb;
+    padding: 30px;
+    transform: scale(1);
+    animation: chartLine .6s ease-in-out;
 }
 /* ================================================================== */
 /* ============------Services - software Development-----============ */
 /* ====================------Services - AI-----====================== */
 /* ====================------Services - Workfore-----====================== */
 /* ================================================================== */
-.heading{
-  color:#21479b;
+.heading {
+    color: #21479b;
 }
- .mainimage{
-    display:flex;
+
+.mainimage {
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-.mainimage img{
-    width:1200px;
-    max-width: 100%;
-    max-height:400px;
-}
-.softdevopsbody h3{
-  color:#21479b;
-  font-weight: 400;
-    font-size:calc(1.375rem + 0.7vw);
+
+    .mainimage img {
+        width: 1200px;
+        max-width: 100%;
+        max-height: 400px;
+    }
+
+.softdevopsbody h3 {
+    color: #21479b;
+    font-weight: 400;
+    font-size: calc(1.375rem + 0.7vw);
     line-height: 42px;
 }
+
 .softdevopsbody .main .first,
 .consultingservicebody .main .first {
     background-color: #fff;
 }
+
 .softdevopsbody .main .second,
-.consultingservicebody .main .second{
+.consultingservicebody .main .second {
     background: #F0F0F0;
 }
-@keyframes connectcard{
-    0%{
+
+@keyframes connectcard {
+    0% {
         transform: translateY(40px);
-        opacity:0; 
-    } 100%{
+        opacity: 0;
+    }
+
+    100% {
         transform: translateY(0px);
-        opacity:1; 
+        opacity: 1;
     }
 }
-.card-img-top{
-    animation:connectcard .4s linear infinite;
-}
-.softdevopsbody .main .second  .card,
-.consultingservicebody .main .second  .card{
-position:relative;
-border-radius: 0px;
-transform: translateY(0px);
 
+.card-img-top {
+    animation: connectcard .4s linear infinite;
 }
-.softdevopsbody .main .second  .card-body,
+
+.softdevopsbody .main .second .card,
+.consultingservicebody .main .second .card {
+    position: relative;
+    border-radius: 0px;
+    transform: translateY(0px);
+}
+
+.softdevopsbody .main .second .card-body,
 .softdevopsbody .main .second img,
-.consultingservicebody .main .second  .card-body,
-.consultingservicebody .main .second img{
-height: 200px;
+.consultingservicebody .main .second .card-body,
+.consultingservicebody .main .second img {
+    height: 225px;
 }
 
-.softdevopsbody .main .second  p,
-.consultingservicebody .main .second  p{
-    margin-bottom:30px;
+.softdevopsbody .main .second p,
+.consultingservicebody .main .second p {
+    margin-bottom: 30px;
 }
+
 .softdevopsbody .main .second a.btn-primary,
-.consultingservicebody .main .second a.btn-primary{
-
-    background-color:#4cc8ee;
-    border:0;
+.consultingservicebody .main .second a.btn-primary {
+    background-color: #4cc8ee;
+    border: 0;
     font-size: 20px;
     border-radius: 0;
     box-shadow: none;
-    position:absolute;
-    right:0;
-    bottom:0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
+
 .softdevopsbody .main .second .card-title a,
-.consultingservicebody .main .second .card-title a{
-text-decoration: none;
-color:#4cc8ee ;
-font-weight: normal;
-font-size:22px;
+.consultingservicebody .main .second .card-title a {
+    text-decoration: none;
+    color: #4cc8ee;
+    font-weight: normal;
+    font-size: 20px;
 }
-.softdevopsbody .main .second .card-title a:hover,
-.consultingservicebody .main .second .card-title a:hover {
-    color:#21479b ;  
-}
+
+    .softdevopsbody .main .second .card-title a:hover,
+    .consultingservicebody .main .second .card-title a:hover {
+        color: #21479b;
+    }
+
 .connectus {
     background: #40afd1;
     border-top: 12px solid #40afd1;
     padding-top: 30px;
 }
-.contactUs .connectus h2{
+
+.contactUs .connectus h2 {
     font-weight: 700;
-    font-size:clamp(18px, 1.6vw, 1.6vw);
+    font-size: clamp(18px, 1.6vw, 1.6vw);
 }
+
 .softdevopsbody .connectus h4,
 .AIbody .connectus h4,
-.consultingservicebody .connectus h4{
+.consultingservicebody .connectus h4 {
     font-weight: 700;
-    font-size:clamp(16px, 1.1vw, 1.1vw);
-    padding:0px 1vw;
+    font-size: clamp(16px, 1.1vw, 1.1vw);
+    padding: 0px 1vw;
 }
+
 .connectus .connectbtn {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
-.connectbtn button{ 
-    border:0;
-    padding:15px 30px;
-    font-size:clamp(10px, 1vw, 16px);
-    margin:20px;
+
+.connectbtn button {
+    border: 0;
+    padding: 15px 30px;
+    font-size: clamp(10px, 1vw, 16px);
+    margin: 20px;
 }
-@keyframes btnhover{
-    0%{transform: scale(1)}
-    50%{ transform: scale(1.2)}
-    100%{transform: scale(1)}
+
+@keyframes btnhover {
+    0% {
+        transform: scale(1)
+    }
+
+    50% {
+        transform: scale(1.2)
+    }
+
+    100% {
+        transform: scale(1)
+    }
 }
- .connectbtn button:hover{ 
+
+.connectbtn button:hover {
     transform: scale(1);
-    animation:btnhover .5s ease-in-out;
+    animation: btnhover .5s ease-in-out;
 }
 /* ====================------Services - AI-----====================== */
-.AIbody .main{
-   background-color:#fff;
+.AIbody .main {
+    background-color: #fff;
 }
-.AIbody .main h3{
-   color:#21479b;
-   font-size:clamp(18px,2vw,25px);
- }
- .AIbody .main h4{
-    color:#21479b;
-    font-size:clamp(16px,2vw,23px);
- }
- .AIbody .main li{
-    color:#21479b;
-    font-size:clamp(12px,2vw,18px);
- }
-  /* ====================------Our Clients-----====================== */
-.Client ol li a{
-text-decoration: none;
-font-size: clamp(12px, 1vw, 16px);
-color:#fff;
+
+    .AIbody .main h3 {
+        color: #21479b;
+        font-size: clamp(18px,2vw,25px);
+    }
+
+    .AIbody .main h4 {
+        color: #21479b;
+        font-size: clamp(16px,2vw,23px);
+    }
+
+    .AIbody .main li {
+        color: #21479b;
+        font-size: clamp(12px,2vw,18px);
+    }
+/* ====================------Our Clients-----====================== */
+.Client ol li a {
+    text-decoration: none;
+    font-size: clamp(12px, 1vw, 16px);
+    color: #fff;
 }
-.Client .first{
-   background-color: #000;
-   border-bottom: 5px solid #cccccc;
-   padding:0px 20vw;
+
+.Client .first {
+    background-color: #000;
+    border-bottom: 5px solid #cccccc;
+    padding: 0px 20vw;
 }
-.Client .ourClient h3{
-    border-bottom:5px solid #0088cc;
-    color:#fff;
+
+.Client .ourClient h3 {
+    border-bottom: 5px solid #0088cc;
+    color: #fff;
     width: fit-content;
-    padding-bottom:10px;
+    padding-bottom: 10px;
     margin-bottom: -5px;
 }
 /* .insidenav ul{
@@ -914,111 +972,154 @@ cursor: default;
 .insidenav ul li a{
     padding:200px 10px;
 } */
-#clients div img{
-    width:90%;
+#clients div img {
+    width: 90%;
     max-width: 200px;
-    margin:20px;
+    margin: 20px;
 }
-  /* ===================------Case studies-----===================== */
-  .Client{
+/* ===================------Case studies-----===================== */
+.Client {
     min-height: 80vh;
-  }
-  .caseStudies .main  img,
-  .caseStudies .main  .card-body {
-    height:260px;
-  }
-  .caseStudies .main  .card-body div:nth-child(1){
-    height:180px;
-    overflow:hidden;
-  }
-  .caseStudies .main  .card-body div:nth-child(1) h5{
-    font-size: clamp(16px, 1.1vw, 25px);
-    color:#4cc8ee;
-  }
-  .caseStudies .main  .card-body div:nth-child(1) p{
-    font-size: clamp(14px, 1vw, 16px);
-    color: #636161;
-  }
-  .caseStudies .main{
+}
+
+.caseStudies .main img,
+.caseStudies .main .card-body {
+    height: 260px;
+}
+
+    .caseStudies .main .card-body div:nth-child(1) {
+        height: 180px;
+        overflow: hidden;
+    }
+
+        .caseStudies .main .card-body div:nth-child(1) h5 {
+            font-size: clamp(16px, 1.1vw, 25px);
+            color: #4cc8ee;
+        }
+
+        .caseStudies .main .card-body div:nth-child(1) p {
+            font-size: clamp(14px, 1vw, 16px);
+            color: #636161;
+        }
+
+.caseStudies .main {
     overflow: hidden;
     background-color: #fff;
     padding-top: 15px;
-  }
-  .caseStudies .main > div{
-background-color: #F0F0F0;
-padding: 20px;
-  }
-  .caseStudies .main .card .btn-primary{
-    border:2px solid #565555;
-    border-radius: 0px;
-    padding:5px 15px;
-    margin-top:10px;
-    margin-bottom:10px;
+}
+
+    .caseStudies .main > div {
+        background-color: #F0F0F0;
+        padding: 20px;
+    }
+
+    .caseStudies .main .card .btn-primary {
+        border: 2px solid #565555;
+        border-radius: 0px;
+        padding: 5px 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #fff;
+        color: #000;
+        box-shadow: none;
+    }
+/* ====================------Contact Us-----====================== */
+
+.map iframe {
+    width: 100%;
+    padding: 15px;
+    min-height: 150px;
+    height: 40vh;
+}
+
+.contactUs .main {
     background-color: #fff;
-    color:#000;
-    box-shadow: none;
-  }
- /* ====================------Contact Us-----====================== */
+}
 
- .map iframe{
-    width:100%;
-    padding:15px;
-    min-height:150px;
-    height:40vh;
- }
- .contactUs .main{
-    background-color: #fff;
- }
- .contactUs .detials h3,
- .contactUs .detials h4{
-    color:#21479b ;
- }
- .contactUs .form-detials form div {
-    padding:3px 1%;
- }
- .contactUs .form-detials form .response-output{
-    padding:15px;
- }
- @keyframes leftanim{
-    0%{
-        opacity:0;
-        margin-left:-10%;
-    }100%{
-        opacity:1;  
-        margin-left:0%;
+.contactUs .detials h3,
+.contactUs .detials h4 {
+    color: #21479b;
+}
+
+.contactUs .form-detials form div {
+    padding: 3px 1%;
+}
+
+.contactUs .form-detials form .response-output {
+    padding: 15px;
+}
+
+@keyframes leftanim {
+    0% {
+        opacity: 0;
+        margin-left: -10%;
     }
- }
- @keyframes rightanim{
-    0%{
-        opacity:0;
-        margin-left:-10%;
-    }100%{
-        opacity:1;  
-        margin-left:0%;
+
+    100% {
+        opacity: 1;
+        margin-left: 0%;
     }
- }
- .leftanim{
-    opacity:1;
-    margin-bottom:0%;
-    animation:leftanim .5s linear;
- }
- .rightanim{
-    opacity:1;
-    animation:rightanim .5s linear;
- }
- @keyframes bottomcard{
-    0%{
-        opacity:0;
-        margin-bottom:-10%;
-    }100%{
-        opacity:1;  
-        margin-bottom:0%;
+}
+
+@keyframes rightanim {
+    0% {
+        opacity: 0;
+        margin-left: -10%;
     }
- }
- .bottomcard{
-    opacity:1;
-    animation:bottomcard .5s linear;
- }
+
+    100% {
+        opacity: 1;
+        margin-left: 0%;
+    }
+}
+
+.leftanim {
+    opacity: 1;
+    margin-bottom: 0%;
+    animation: leftanim .5s linear;
+}
+
+rightanim {
+    opacity: 1;
+    animation: rightanim .5s linear;
+}
+
+.offcanvas-link {
+    color: white;
+    transition: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-color: #000;
+}
+
+.disabled-item {
+    pointer-events: none;
+    cursor: not-allowed;
+}
 
 
+.offcanvas-header button {
+    border: 0;
+    color: #fff;
+    border-radius: 2px;
+    background: #2C2E2F;
+    color: #fff;
+}
 
+@keyframes bottomcard {
+    0% {
+        opacity: 0;
+        margin-bottom: -10%;
+    }
+
+    100% {
+        opacity: 1;
+        margin-bottom: 0%;
+    }
+}
+
+.bottomcard {
+    opacity: 1;
+    animation: bottomcard .5s linear;
+}

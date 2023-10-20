@@ -10,7 +10,7 @@ $(document).ready(function() {
         );
     }
     // Check elements with class "servicesimg" visibility on scroll
-    $('.cardanim,.imgleft, .textleft, .zoom').css('opacity',0);
+    $('.cardanim,.imgleft, .textleft, .zoom').css('opacity',5);
 
     $(window).on('scroll load', function() {
         $('.zoom').each(function() {
