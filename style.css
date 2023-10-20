@@ -1123,3 +1123,10 @@ rightanim {
     opacity: 1;
     animation: bottomcard .5s linear;
 }
+.us-address, .ind-address, .mail-id, .mob-num {
+    text-decoration: none;
+    color: #000;
+}
+    .us-address:hover, .ind-address:hover, .mail-id:hover, .mob-num:hover {
+        color: #0063ff;
+    }
