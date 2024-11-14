@@ -41,7 +41,7 @@
         <!-- =================---Desktop----====================== -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href="#"><img class="desktopViewimg" src="img/agapeworks-logo.png" alt="Agapeworks Technology" /></a>
+                <a class="navbar-brand" href="index.html"><img class="desktopViewimg" src="img/agapeworks-logo.png" alt="Agapeworks Technology" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
                         aria-controls="offcanvasDarkNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -129,7 +129,7 @@
 
     <div class="container py-5">
         <div class="content-div d-flex flex-wrap justify-content-between my-5">
-            <div class="text-center my-3 col-12 col-sm-6 col-md-3">
+            <div class="text-center my-3 col-12 col-sm-6 col-md-3 drop">
                 <img class="mb-3" src="img/project-management.png" alt="Innovative Icon" style="width:50px;height:50px;">
                 <h5>Innovative</h5>
                 <p class="px-4">
@@ -218,9 +218,13 @@
             <h2>What We Offer</h2>
         </div>
         <p class="text-center">
-            We offer a host of IT related services to clients from across the globe. Agape stands for
-            offering affordable IT solutions. The prices of our services are unmatched and so is the quality of work
-            that we deliver. The following are the three major areas that we focus on for the growth of your business.
+            At Agape, we provide affordable IT services to clients worldwide,
+             offering unmatched prices and high-quality solutions. Our expertise
+              focuses on two key areas to help your business grow: technology 
+              solutions and medical coding services. Whether you're looking to
+               implement new technology or streamline your medical coding processes,
+                we are dedicated to enhancing your efficiency and accuracy to support 
+                your success.
         </p>
         <div class="row offer-img">
             <div class="col-md-4">
@@ -250,7 +254,7 @@
     <!-- ====Address==== -->
     <div class="container px-5 my-5 ">
         <div class="last-heading">
-            <h4 class="text-center"><b>Does your Business need Technology Transformation?</b></h4>
+            <h4 class="text-center"><b>Does your business need technology solutions and medical coding?</b></h4>
         </div>
         <p class="text-center last-heading-p">
             To find out more about what we can do for your business, contact us today
@@ -323,30 +327,36 @@
     
             <!-- ====form==== -->
             <div class="col-12 col-lg-6  form-detials">
-                <form class="row">
+                <form class="row cardanim" onsubmit="return validateForm()">
                     <div class="col-12 col-lg-6">
-                        <label for="exampleFormControlInput1" class="form-label">First name<span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1">
-                    </div>
-                    <div class=" col-12 col-lg-6">
-                        <label for="exampleFormControlInput1" class="form-label">Last name<span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1">
+                        <label for="firstName" class="form-label">First name<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="firstName">
+                        <small id="firstNameError" class="text-danger"></small>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <label for="exampleFormControlInput1" class="form-label">Email<span class="text-danger">*</span></label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                        <label for="lastName" class="form-label">Last name<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="lastName">
+                        <small id="lastNameError" class="text-danger"></small>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <label for="exampleFormControlInput1" class="form-label">Phone Number<span class="text-danger">*</span></label>
-                        <input type="number" class="form-control" id="exampleFormControlInput1">
+                        <label for="email" class="form-label">Email<span class="text-danger">*</span></label>
+                        <input type="email" class="form-control" id="email">
+                        <small id="emailError" class="text-danger"></small>
                     </div>
-                    <div class="col-12">
-                        <label for="floatingTextarea2">Description</label>
-                        <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
-
+                    <div class="col-12 col-lg-6">
+                        <label for="phoneNumber" class="form-label">Phone number<span class="text-danger">*</span></label>
+                        <input type="number" class="form-control" id="phoneNumber">
+                        <small id="phoneNumberError" class="text-danger"></small>
                     </div>
-                    <button class="submitButton mx-auto py-2 ">submit</button>
+                    <div class="col-12 descriptionContainer">
+                        <label for="description">Description</label>
+                        <textarea class="form-control" id="description" style="height: 100px"></textarea>
+                    </div>
+                    <button class="submitButton mx-auto py-2" type="submit">Submit</button>
                 </form>
+                <div id="successAlert" class="alert alert-success mt-3" style="display: none;" role="alert">
+                    Submitted successfully!
+                </div>
 
             </div>
         </div> 
@@ -361,33 +371,62 @@
 </body>
 
 </html>
+<script>
+    function validateForm() {
+        let isValid = true;
+    
+        // First Name Validation
+        const firstName = document.getElementById("firstName").value;
+        if (firstName === "") {
+            document.getElementById("firstNameError").textContent = "First name is required.";
+            isValid = false;
+        } else {
+            document.getElementById("firstNameError").textContent = "";
+        }
+    
+        // Last Name Validation
+        const lastName = document.getElementById("lastName").value;
+        if (lastName === "") {
+            document.getElementById("lastNameError").textContent = "Last name is required.";
+            isValid = false;
+        } else {
+            document.getElementById("lastNameError").textContent = "";
+        }
+    
+        // Email Validation
+        const email = document.getElementById("email").value;
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (email === "") {
+            document.getElementById("emailError").textContent = "Email is required.";
+            isValid = false;
+        } else if (!emailRegex.test(email)) {
+            document.getElementById("emailError").textContent = "Invalid email format.";
+            isValid = false;
+        } else {
+            document.getElementById("emailError").textContent = "";
+        }
+    
+        // Phone Number Validation
+        const phoneNumber = document.getElementById("phoneNumber").value;
+        if (phoneNumber === "") {
+            document.getElementById("phoneNumberError").textContent = "Phone number is required.";
+            isValid = false;
+        } else {
+            document.getElementById("phoneNumberError").textContent = "";
+        }
+    
+        // Show success alert if all fields are valid
+        if (isValid) {
+            const successAlert = document.getElementById("successAlert");
+            successAlert.style.display = "block";
+            
+            // Hide the alert after 5 seconds
+            setTimeout(() => {
+                successAlert.style.display = "none";
+            }, 15000); // 5000 milliseconds = 5 seconds
+        }
+    
+        return isValid; // Only submits the form if valid
+    }
+    </script>
 
-<!--  <div class="ms-auto">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link"  asp-controller="Home" asp-action="Index">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"  asp-controller="Home" asp-action="Privacy">ABOUT US</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown link
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">OUR CLIENTS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">CASE STUDIES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">CONTACT US</a>
-                        </li>
-                    </ul>
-                </div> -->
