@@ -1494,7 +1494,16 @@ img {
     background: url(/img/revenu-banner.jpg)no-repeat 50% 50%;    
 }
 .mediService-banner {
-    background: url(/img/banner.jpg)no-repeat 50% 50%;
+    background: url(/img/meicalCodingBanner.jpg)no-repeat 50% 50%;
+}
+.DenialManagement-banner {
+    background: url(/img/DenialManagement.jpg)no-repeat 50% 50%;
+}
+.PatientCareCoordinator-banner {
+    background: url(/img/PatientCareCoordinator.jpg)no-repeat 50% 50%;
+}
+.ARCallingServices-banner {
+    background: url(/img/ARCallingServices.jpg)no-repeat 50% 50%;
 }
 .payer-banner {
     background: url(/img/payer-banner.jpg)no-repeat 50% 50%;
