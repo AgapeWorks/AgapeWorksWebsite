@@ -456,7 +456,7 @@
 .banner {
     position: relative;
     padding: 80px;
-    padding-bottom: 180px;.medicode-cndt
+    padding-bottom: 180px;
     object-fit: contain;
 }
 
@@ -1692,5 +1692,40 @@ opacity: 0.6;
     margin-top:5px;
 }
 
+.BannerImage img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.BannerImage {
+    position: relative;
+    text-align: center;
+    color: white; 
+}
 
+.BannerInsideImage {
+    width: 100%; 
+    height: auto;
+}
+
+.BannerText {
+    width: 70%;
+    position: absolute;
+    top: 70%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+}
+.BannerSubText {
+    width: 70%;
+    position: absolute;
+    top: 80%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+}
 

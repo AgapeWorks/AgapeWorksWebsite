@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap JavaScript Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"
+        integrity="sha512-b6lGn9+1aD2DgwZXuSY4BhhdrDURVzu7f/PASu4H1i5+CRpEalOOz/HNhgmxZTK9lObM1Q7ZG9jONPYz8klIMg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Agape works - Agape works</title>
+    <link rel="icon" type="image/x-icon" href="img/AW-favicon.ico" />
+</head>
+
+<body>
+    <!-- ============---Header start----=================== -->
+    <header class="mainheader pb-5">
+        <!-- =================---Desktop----====================== -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img class="desktopViewimg" src="img/agapeworks-logo.png"
+                        alt="Agapeworks Technology" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul id="navbar" class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link px-4 py-1 active" aria-current="page" href="index.html">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-4 py-1" href="About.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-4 py-1" href="MedicalCoding.html">Medical Coding</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-4 py-1" href="SoftwareDevelopment.html">Software Development</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-4 py-1" href="AGCodeCrop.html">AG CodeCrup</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-4 py-1" href="CaseStudies.html">Case Studies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-4 py-1" href="Contactus.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--offcanvas for mobile responsive-->
+
+        <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+                <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <ul id="navbar" class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link offcanvas-link px-4 py-1 active" aria-current="page" href="index.html">Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link offcanvas-link px-4 py-1" href="About.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link offcanvas-link px-4 py-1" href="MedicalCoding.html">Medical Coding</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link offcanvas-link px-4 py-1" href="SoftwareDevelopment.html">Software
+                            Development</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4 py-1" href="AGCodeCrop.html">AG CodeCrup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link offcanvas-link px-4 py-1" href="CaseStudies.html">Case Studies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link offcanvas-link px-4 py-1" href="Contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <div>
+        <div class="BannerImage">
+            <img src="img/AGBanner.jpg" alt="" class="BannerInsideImage">
+            <div class=""></div>
+            <h3 class="BannerText">AG CodeCrup International Collegiate Programming Contest</h3>
+            <h1 class="BannerSubText"> The 2025 AG Codecrup World Finals</h1>
+        </div>
+        <div class="AGContainer">
+           <h1 class="about-title">Nearby Contest</h1>
+                <div class="underline">
+                    <span class="blue-line"></span>
+                    <span class="yellow-line"></span>
+                </div>
+            <div class="contest-card">
+                <div class="contest-title-section">
+                    <span class="trophy-icon">🏆</span>
+                    <h3>The 2025 AG Code Crup Regional Contest</h3>
+                    <p class="status-small">Contest</p>
+                </div>
+
+                <div class="details-container">
+                    <div class="detail-block">
+                        <span class="icon">&#x1F4C5;</span>
+                        <div class="detail-text">
+                            <strong>Contest Date</strong>
+                            Nov 08, 2025 – Jan 04, 2026
+                        </div>
+                    </div>
+
+                    <div class="detail-block">
+                        <span class="icon">&#x1F4E7;</span>
+                        <div class="detail-text">
+                            <strong>Contact</strong>
+                            <a href="mailto:upuljm@eng.pdn.lk">upuljm@eng.pdn.lk</a>
+                        </div>
+                    </div>
+
+                    <div class="detail-block">
+                        <span class="icon">&#x1F4C5;</span>
+                        <div class="detail-text">
+                            <strong>Registration Period</strong>
+                            Nov 08, 2025 – Dec 25, 2025
+                        </div>
+                    </div>
+
+                    <div class="detail-block">
+                        <span class="icon">&#x1F4BB;</span>
+                        <div class="detail-text">
+                            <strong>Registration Status</strong>
+                            <span class="teams-registered">0</span> / 100 teams registered
+                        </div>
+                    </div>
+                </div>
+
+                <div class="status-box-container">
+                    <span class="status-box-icon">&#x1F465;</span>
+                    <div class="status-text">Registration Open</div>
+                    <div class="status-value status-small">Registration closes</div>
+                    <div class="status-value">12/25/2025</div>
+                </div>
+            </div>
+
+            <div class="contest-card">
+                <div class="contest-title-section">
+                    <span class="trophy-icon">🏆</span>
+                    <h3>The 2025 AG Code Crup - Online Regional Contest</h3>
+                    <p class="status-small">Contest</p>
+                </div>
+
+                <div class="details-container">
+                    <div class="detail-block">
+                        <span class="icon">&#x1F4C5;</span>
+                        <div class="detail-text">
+                            <strong>Contest Date</strong>
+                            Nov 12, 2025 – Nov 12, 2025
+                        </div>
+                    </div>
+
+                    <div class="detail-block">
+                        <span class="icon">&#x1F4E7;</span>
+                        <div class="detail-text">
+                            <strong>Contact</strong>
+                            <a href="mailto:icpc@sharif.edu">icpc@sharif.edu</a>
+                        </div>
+                    </div>
+
+                    <div class="detail-block">
+                        <span class="icon">&#x1F4C5;</span>
+                        <div class="detail-text">
+                            <strong>Registration Period</strong>
+                            Registration closed
+                        </div>
+                    </div>
+
+                    <div class="detail-block">
+                        <span class="icon">&#x1F4BB;</span>
+                        <div class="detail-text">
+                            <strong>Registration Status</strong>
+                            <span class="teams-registered">892</span> / 1000 teams registered
+                        </div>
+                    </div>
+                </div>
+
+                <div class="status-box-container">
+                    <span class="status-box-icon">&#x1F4C5;</span>
+                    <div class="status-text">Contest Starting</div>
+                    <div class="status-value status-small">Contest begins</div>
+                    <div class="status-value">Wednesday at 12:00 AM</div>
+                </div>
+            </div>
+            <section class="about-section">
+                <h1 class="about-title">About AG CodeCrup</h1>
+                <div class="underline">
+                    <span class="blue-line"></span>
+                    <span class="yellow-line"></span>
+                </div>
+
+                <p class="about-text">
+                    The International Collegiate Programming Contest is an algorithmic programming contest for college
+                    students.
+                    Teams of three, representing their university, work to solve the most real-world problems, fostering
+                    collaboration,
+                    creativity, innovation, and the ability to perform under pressure. Through training and competition,
+                    teams challenge
+                    each other to raise the bar on the possible. Quite simply, it is the oldest, largest, and most
+                    prestigious programming
+                    contest in the world.
+                </p>
+
+                <button class="about-btn">MORE ABOUT ICPC</button>
+            </section>
+
+             <section class="about-section">
+                <h1 class="about-title">Judges</h1>
+                <div class="underline">
+                    <span class="blue-line"></span>
+                    <span class="yellow-line"></span>
+                </div>
+ <div class="container p-5">
+                            <ul class="nospace group overview mb-5">
+                                <li class="one_third p-3">
+                                    <article>
+                                        <a href="#"><img class="JudgesImg" src="/img/Sir-image.png" alt="website template image"></a>
+                                        <h6 class="heading">RadhaKrishna Arikrishna Perumal</h6>
+                                        <p>
+                                            Software Architect ,Anchor General Insurance Agency
+                                            
+                                        </p>
+                                        <footer class="float-end"><a class="btn service-btn" href="MedicalBilling.html">Start
+                                                here</a></footer>
+                                    </article>
+                                </li>
+                                <li class="one_third p-3">
+                                    <article>
+                                        <a href="#"><img class="JudgesImg" src="/img/Anu.jpg" alt="website template image"></a>
+                                        <h6 class="heading">Ms. Anusha Nerella</h6>
+                                       
+                                        <p>
+                                           Senior Software Engineer
+                                        </p>
+                                         <br>
+                                         <br>
+                                        <footer class="float-end"><a class="btn service-btn"
+                                                href="MedicalCodingService.html">Start here</a></footer>
+                                    </article>
+                                </li>
+                                <li class="one_third p-3">
+                                    <article>
+                                        <a href="#"><img class="JudgesImg" src="/img/Kul.png" alt="website template image"></a>
+                                        <h6 class="heading">Prof. Parag Kulkarni</h6>
+                                        <p>Tokyo International University, Japan</p>
+                                         <br>
+                                         <br>
+                                        <footer class="float-end"><a class="btn service-btn" href="ClaimsManagement.html">Start
+                                                here</a></footer>
+                                    </article>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                
+
+              
+            </section>
+
+
+                 <section class="about-section">
+                <h1 class="about-title">Winners</h1>
+                <div class="underline">
+                    <span class="blue-line"></span>
+                    <span class="yellow-line"></span>
+                </div>
+ <div class="container p-5">
+                            <ul class="nospace group overview mb-5">
+                                <li class="one_third p-3">
+                                    <article>
+                                        <a href="#"><img class="JudgesImg" src="/img/Alixandra-Barasch.png" alt="website template image"></a>
+                                        <h6 class="heading">Alixandra Barasch</h6>
+                                        <p>
+                                           2025                     
+                                            
+                                        </p>
+                                        <footer class="float-end"><a class="btn service-btn" href="MedicalBilling.html">Start
+                                                here</a></footer>
+                                    </article>
+                                </li>
+                                <li class="one_third p-3">
+                                    <article>
+                                        <a href="#"><img class="JudgesImg" src="/img/Peggy-Liu.png" alt="website template image"></a>
+                                        <h6 class="heading">Peggy Liu</h6>
+                                       
+                                        <p>
+                                           2025
+                                        </p>
+                                         <br>
+                                         <br>
+                                        <footer class="float-end"><a class="btn service-btn"
+                                                href="MedicalCodingService.html">Start here</a></footer>
+                                    </article>
+                                </li>
+                                <li class="one_third p-3">
+                                    <article>
+                                        <a href="#"><img class="JudgesImg" src="/img/Stephen-A-Spiller.png" alt="website template image"></a>
+                                        <h6 class="heading">Stephen A. Spiller</h6>
+                                        <p>2025</p>
+                                         <br>
+                                         <br>
+                                        <footer class="float-end"><a class="btn service-btn" href="ClaimsManagement.html">Start
+                                                here</a></footer>
+                                    </article>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                
+
+              
+            </section>
+                     <section class="about-section">
+                <h1 class="about-title">Community</h1>
+                <div class="underline">
+                    <span class="blue-line"></span>
+                    <span class="yellow-line"></span>
+                </div>
+<div>
+    <h4>Binding the strength of advocates worldwide</h4>
+</div>
+                <p class="about-text">
+                    The AG CodeCrop is filled with many people who dedicate
+                     their lives to improving the future of computing
+                      by enabling opportunities for students. Universities, 
+                      coaches and volunteers work together to enable opportunities
+                       for our competitors to shine.
+                </p>
+
+                <button class="about-btn">MORE ABOUT ICPC</button>
+            </section>
+        </div>
+    </div>
+
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f9;
+            /* Light gray background */
+
+            color: #333;
+        }
+
+        .AGContainer {
+            margin: 20px 150px;
+        }
+
+        /* Contest Card Container */
+        .contest-card {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-wrap: wrap;
+            /* Allows sections to wrap on smaller screens */
+            position: relative;
+        }
+.JudgesImg{
+    height: 800px;
+}
+        /* Contest Title Section */
+        .contest-title-section {
+            width: 100%;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+
+        .contest-title-section h3 {
+            font-size: 1.5em;
+            color: #007bff;
+            /* Blue title color */
+            margin: 0;
+            font-weight: 600;
+        }
+
+        .trophy-icon {
+            display: inline-block;
+            color: gold;
+            /* Placeholder color for icon */
+            font-size: 1.2em;
+            margin-right: 5px;
+        }
+
+        /* Details Container */
+        .details-container {
+            display: flex;
+            flex-grow: 1;
+            flex-wrap: wrap;
+        }
+
+        /* Detail Blocks (Date, Period, Contact, Status) */
+        .detail-block {
+            width: 50%;
+            /* Two columns layout */
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .detail-block strong {
+            display: block;
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 3px;
+        }
+
+        .icon {
+            color: #888;
+            font-size: 1.2em;
+            margin-right: 10px;
+            margin-top: 2px;
+        }
+
+        .detail-text {
+            font-size: 0.95em;
+        }
+
+        /* Right-Side Status Box */
+        .status-box-container {
+            width: 180px;
+            /* Fixed width for the status box */
+            text-align: center;
+            padding: 15px;
+            border-left: 1px solid #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: auto;
+            /* Push to the right */
+        }
+
+        .status-box-icon {
+            color: #007bff;
+            /* Blue for the calendar/people icon */
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .status-text {
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .status-value {
+            color: #007bff;
+            /* Highlight color for registration/start info */
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        .status-highlight {
+            color: #dc3545;
+            /* Red for 'Registration closed' */
+            font-weight: 600;
+        }
+
+        .status-small {
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+
+        .teams-registered {
+            color: #28a745;
+            /* Green for current/total teams */
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            .contest-card {
+                flex-direction: column;
+            }
+
+            .details-container {
+                order: 2;
+                /* Details below title */
+            }
+
+            .detail-block {
+                width: 100%;
+                /* Stack details vertically */
+            }
+
+            .status-box-container {
+                width: 100%;
+                border-left: none;
+                border-top: 1px solid #e0e0e0;
+                padding-top: 15px;
+                margin-bottom: 15px;
+                order: 3;
+                /* Status box at the bottom */
+            }
+
+            .contest-title-section {
+                order: 1;
+            }
+        }
+
+        .about-section {
+            margin: 0px auto;
+            padding: 80 20px;
+            margin: 50px 0px;
+            font-family: 'Poppins', Arial, sans-serif;
+            color: #333;
+        }
+
+        .about-title {
+            font-size: 72px;
+            color: #0a2b61;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .underline {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .blue-line {
+            width: 100px;
+            height: 5px;
+            background-color: #1b3a6d;
+            border-radius: 2px;
+        }
+
+        .yellow-line {
+            width: 40px;
+            height: 5px;
+            background-color: #e9b22b;
+            border-radius: 2px;
+            margin-left: 5px;
+        }
+
+        .about-text {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .about-btn {
+            background-color: #0a5ed7;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .about-btn:hover {
+            background-color: #084db8;
+        }
+    </style>
+
+
+
+
+
+
+
+
+
+
+    <!-- ======footer===== -->
+    <footer>
+        <div class="container pt-2 pb-2">
+            <div class="footerContent py-4 text-center"> © Copyright 2023 AgapeWorks Technology. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
