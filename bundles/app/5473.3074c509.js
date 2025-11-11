@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscnsoft_website=self.webpackChunkscnsoft_website||[]).push([[5473],{5473:(e,t,s)=>{s.r(t),s.d(t,{default:()=>a});var c=s(4002),r=s.n(c);class a{constructor(e){this.$wrapper=r()(e),this.$wrapper.on("click",".icon-box-card.has-link",(e=>{const t=e.currentTarget.querySelector("a");e.target!==t&&(e.preventDefault(),t.click())}))}}}}]);

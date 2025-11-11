@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscnsoft_website=self.webpackChunkscnsoft_website||[]).push([[5340],{85340:(e,t,s)=>{function n(e){"loading"===document.readyState?document.addEventListener("DOMContentLoaded",e):scheduler.postTask((()=>e()))}s.d(t,{Z:()=>n})}}]);

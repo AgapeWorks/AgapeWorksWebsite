@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscnsoft_website=self.webpackChunkscnsoft_website||[]).push([[708],{65836:(e,s,t)=>{(0,t(98897).Z)(".cwc-wrapper",(()=>Promise.all([t.e(3913),t.e(3279),t.e(9144),t.e(8548)]).then(t.bind(t,28548))))}},e=>{e.O(0,[5340,7401,272,8897],(()=>{return s=65836,e(e.s=s);var s}));e.O()}]);

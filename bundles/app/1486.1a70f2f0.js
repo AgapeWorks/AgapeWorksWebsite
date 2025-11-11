@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscnsoft_website=self.webpackChunkscnsoft_website||[]).push([[1486],{31486:(e,t,s)=>{s.r(t),s.d(t,{default:()=>u});var n=s(4002),c=s.n(n),a=s(75959);var f=s(79184);function u(){c()(".js-open-live-chat-btn").click((e=>{e.preventDefault(),a.default.openLivechat("")})),(0,f.ZP)()}}}]);

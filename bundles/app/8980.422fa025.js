@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscnsoft_website=self.webpackChunkscnsoft_website||[]).push([[8980],{28980:(t,s,e)=>{e.r(s),e.d(s,{default:()=>a});var c=e(4002),n=e.n(c),r=e(3028);class a{constructor(t){this.$wrapper=n()(t);let s=this.$wrapper.find(".bt-livechat-button");s.length&&(0,r.Z)(s)}}}}]);

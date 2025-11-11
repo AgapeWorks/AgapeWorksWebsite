@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscnsoft_website=self.webpackChunkscnsoft_website||[]).push([[2797],{42797:(e,s,t)=>{function n(e){return new Promise((s=>setTimeout(s,e)))}t.d(s,{Z:()=>n})}}]);
