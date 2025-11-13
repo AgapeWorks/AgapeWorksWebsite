@@ -473,7 +473,7 @@
     }
 
 .banner-text {
-    background-color: ##93b2b5;
+    background-color: #93b2b5;
 }
 
 .banner .team {
@@ -1711,7 +1711,7 @@ opacity: 0.6;
 .BannerText {
     width: 70%;
     position: absolute;
-    top: 70%; 
+    top: 80%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
     font-weight: bold;
@@ -1721,7 +1721,7 @@ opacity: 0.6;
 .BannerSubText {
     width: 70%;
     position: absolute;
-    top: 80%; 
+    top: 90%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
     font-weight: bold;
